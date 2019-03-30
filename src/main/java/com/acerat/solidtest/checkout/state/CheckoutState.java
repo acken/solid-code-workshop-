@@ -48,4 +48,8 @@ public class CheckoutState {
 
     public void shipmentActivated() {
     }
+
+    public boolean hasFailed() {
+        return false;
+    }
 }
